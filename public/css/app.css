@@ -12426,6 +12426,10 @@ textarea.form-control-lg {
   nav div {
     display: block;
   }
+  .slider-1, .slider-2, .slider-3 {
+    height: 40vh !important;
+    background-size: cover;
+  }
   .sec-stats {
     height: 100vh;
     padding: 0;
@@ -12463,7 +12467,7 @@ textarea.form-control-lg {
     width: 80% !important;
   }
   .video-sec {
-    height: 250vh !important;
+    height: 200vh !important;
   }
   .video + description {
     display: flex !important;
@@ -12521,7 +12525,7 @@ textarea.form-control-lg {
     width: 80vw !important;
   }
   .form-section {
-    height: 170vh;
+    height: 147vh;
   }
   .img-form {
     height: 40vh !important;
@@ -12530,8 +12534,30 @@ textarea.form-control-lg {
     gap: 10vh !important;
   }
   .beside-submit {
-    padding-top: 5vh !important;
-    padding-bottom: 5vh !important;
+    width: 90vw !important;
+    margin-top: 3vh !important;
+  }
+  .potona-nav-bar {
+    display: none;
+  }
+  .footer-respo {
+    width: 80vw !important;
+  }
+  .news-input {
+    width: 95vw !important;
+    margin-bottom: 3vh !important;
+  }
+  .potona-lakhra-respo {
+    width: 95vw !important;
+  }
+  .news-sec {
+    height: 40vh !important;
+  }
+  .fucked-up {
+    margin-top: 10vh !important;
+  }
+  .description-video {
+    width: 80vw !important;
   }
 }
 
