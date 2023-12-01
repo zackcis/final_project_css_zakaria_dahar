@@ -12406,6 +12406,12 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.sec-form-contact {
+  height: 70vh;
+  border: 1px solid black;
+  display: flex;
+}
+
 .potona-send {
   background-color: #1a76d1;
   width: 75%;
@@ -12415,18 +12421,14 @@ textarea.form-control-lg {
 
 .map-sec {
   height: 90vh;
+  width: 100%;
   padding: 100px;
+  display: flex;
+  justify-content: center;
 }
 
 .inside-map {
   height: 70%;
-}
-
-.form-contact {
-  background-color: blue;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
 }
 
 .potona-1, .potona-2, .potona-3, .potona-4, .potona-5, .potona-6 {
@@ -12442,6 +12444,23 @@ textarea.form-control-lg {
 .potona-1:hover, .potona-2:hover, .potona-3:hover, .potona-4:hover, .potona-5:hover, .potona-6:hover {
   background-size: 100% 100%;
   color: #fff;
+}
+
+.input-contact {
+  width: 27vh !important;
+}
+
+.form-contact {
+  width: 30vw;
+  height: 40vh;
+}
+
+.text-area-contact {
+  width: 28vw !important;
+}
+
+.button-contact {
+  width: 28vw !important;
 }
 
 @media (max-width: 430px) {
@@ -12583,6 +12602,15 @@ textarea.form-control-lg {
   }
   .form-form {
     width: 95vh !important;
+  }
+  .inside-map {
+    width: 80vw;
+  }
+  .map-sec {
+    height: 170vh;
+  }
+  iframe {
+    width: 80vw;
   }
 }
 
