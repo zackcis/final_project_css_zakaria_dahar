@@ -121,7 +121,7 @@
 .emergency-title
     width: 35%
 .potona-4
-    color: #1a76d1
+    color: black !important
     border: none
     border-radius: 5px
     padding: 1.5vh
@@ -259,6 +259,23 @@
     padding: 100px
 .inside-map
     height: 70%
+.form-contact
+    background-color: blue
+    display: flex
+    flex-direction: column
+    justify-items: center
+.potona-1,.potona-2,.potona-3,.potona-4,.potona-5,.potona-6
+    position: relative
+    display: inline-block
+    color: white
+    background-image: linear-gradient(#00a2ff, #0095ff)
+    background-position: 50% 50%
+    background-repeat: no-repeat
+    background-size: 0% 100%
+    transition: background-size .5s, color .5s
+    &:hover
+        background-size: 100% 100%
+        color: #fff
 
 @media (max-width: 430px)
 
@@ -268,7 +285,6 @@
     .slider-1,.slider-2,.slider-3
         height: 40vh !important
         background-size: cover
-
     .sec-stats
         height: 100vh
         padding: 0
@@ -360,4 +376,5 @@
         margin-top: 10vh !important
     .description-video
         width: 80vw !important
-    .video-sec
+    .form-form
+        width: 95vh !important
